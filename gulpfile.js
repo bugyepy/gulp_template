@@ -17,14 +17,14 @@ const paths = {
   // 格納先
   src: {
     pug: `./src/pug/**/*.pug`,
-    scss: `./src/scss/**/*.scss`,
-    js: `./src/js/**/*.js`,
+    scss: `./src/assets/scss/**/*.scss`,
+    js: `./src/assets/js/**/*.js`,
   },
 
   // 出力先
   dist: {
-    css: `./dist/css/`,
-    js: `./dist/js/`,
+    css: `./dist/assets/css/`,
+    js: `./dist/assets/js/`,
   }
 };
 
